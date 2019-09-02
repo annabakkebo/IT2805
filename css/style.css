@@ -1,7 +1,7 @@
 body{
     background-color: aliceblue;
 }
-header{
+header, h1,h2,h3,h4{
     font-family: Arial;
 }
 p{
@@ -10,7 +10,4 @@ p{
 img{
     max-width: 150px;
     border: black solid 2px;
-}
-a{
-    target: tab;
 }
