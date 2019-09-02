@@ -1,0 +1,53 @@
+body{
+    background-color: lightgrey;
+
+}
+article {
+    max-width: 75ch;
+    min-width: 65ch;
+    margin: auto;
+    font-family: Georgia;
+    line-height: 150%;
+    font-max-size: 22px;
+    font-min-size: 18px;
+    color: #323232;
+}
+
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+p, blockquote, ul, ol {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+#facts {
+    margin: 1em 0em 1em 1em;
+    width: 50%;
+    border: 1px dashed;
+    float: right;
+}
+
+#facts > ul {
+    list-style-image: url('cup-icon.svg');
+    line-height: 1.5em;
+    padding-left: 1.5em;
+}
+img{
+    max-width: 100%;
+    /*
+    or you coud use max-width:960px;
+    Since the image is within the <article> both would be 960 px.
+    When using 100% we would only need to change the width of the article if we would like to change both.
+     */
+}
+#intro{
+    border-top: black solid 2px;
+}
