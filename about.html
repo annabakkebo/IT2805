@@ -33,8 +33,9 @@
 </section>
 <section>
     <header>
-        <header><h2>Questions</h2></header>
+        <header><h2>Questions - first assignment</h2></header>
     </header>
+    <div>First assignment</div>
     <ol>
         <li>
             The server in the client server architecture wait for requests from the clients and responds. For instance
@@ -61,6 +62,70 @@
         <li>
             HTML, short for Hypertext Markup Language, is a language that is used by WWW. HTML is a standard language
             that is used to describe how the web page is formatted. What the web page will look like.
+        </li>
+    </ol>
+</section>
+<section>
+    <header>
+        <header><h2>Questions - second assignment</h2></header>
+    </header>
+    <ol>
+        <li>
+            Why does inline style CSS override rules defined in style elements and external stylesheets?
+            <ul>
+                <li>
+                    When building the HTML file with CSS it always uses the last defined style. The inline style CSS is
+                    then the last defined and then override the rules defined in the style element or external
+                    stylesheets. This way you could use the defined style elements or external stylesheets as a general
+                    template for the web page. When changing the style of spesific elements on the page the inline style
+                    CSS would override.
+                </li>
+            </ul>
+        </li>
+        <li>
+            Give a brief example of when to use ID (#id) and when to use classes (.class) in CSS.
+            <ul>
+                <li>
+                    ID is used when identifying <u>one</u> element, while classes can be used when identifying
+                    <u>several</u> elements.
+                </li>
+            </ul>
+        </li>
+        <li>
+            What does RGBA mean and what colors can you express with it?
+            <ul>
+                <li>
+                    RGBA, red-green-blue-alpha, defines what intensity of red, green or blue the color will have. In
+                    addition it defines the opacity of the color as the alpha input. The red, green and blue inputs are
+                    integers between 0 and 255 or percentage. Alpha is given as a number between 0 and 1. Where 0 is
+                    transparent and 1 is visible. <br/>
+                    We can express all colors with it.
+                </li>
+            </ul>
+        </li>
+        <li>
+            Why do we include CSS files inside the head element and not inside the body element?
+            <ul>
+                <li>
+                    Because then the web page has the styles before starting to ''paint'' the web page. If it had been
+                    inside the body element the web page would start to load the page, and then recognize the CSS file /
+                    style element. It would then need to reload the page to implement the style.
+                </li>
+            </ul>
+        </li>
+        <li>
+            What CSS selector matches all the p elements inside the article element in the following HTML? <br/>
+            <code>
+                &lt;p&gt; This should not match &lt;/p&gt; <br/>
+                &lt;article&gt; <br/>
+                <div class="tab">
+                    &lt;h2&gt;This should not match&lt;/h2&gt; <br/>
+                    &lt;p&gt;This should match.&lt;/p&gt;<br/>
+                    &lt;p&gt;This should also match.&lt;/p&gt;<br/>
+                    &lt;p&gt;Do not forget about this one!&lt;/p&gt;<br/>
+                </div>
+                &lt;/article&gt;
+            </code>
         </li>
     </ol>
 </section>
