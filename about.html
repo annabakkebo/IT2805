@@ -127,9 +127,10 @@
             </code>
             <ul>
                 <li>
-                    Because then the web page has the styles before starting to ''paint'' the web page. If it had been
-                    inside the body element the web page would start to load the page, and then recognize the CSS file /
-                    style element. It would then need to reload the page to implement the style.
+                    One solution is "<code>article &gt; p{}</code>". This picks the &lt;p&gt; element that is a child of an &lt;article&gt; element.
+                    If we would have a &lt;p&gt; within a &lt;p&gt; element this would not match here.  <br>
+                    Another solution is "<code>article  p{}</code>". Here all &lt;p&gt; elements within an &lt;article&gt; element will
+                    match. If we would have a &lt;p&gt; within a &lt;p&gt; element this would also match here.
                 </li>
             </ul>
         </li>
