@@ -22,6 +22,3 @@ ul{
 ul>li>ul>li:last-of-type {
   color: #0060A3;
 }
-body :nth-child(3){
-  color: aqua;
-}
