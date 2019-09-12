@@ -4,3 +4,4 @@
     For instance if you have a div item, and a div within that item that had position absolute. The absolute will then
     be placed on that image, while the fixed will be at the same point on the screen even when you're scrolling.
 2. With CSS3, how do we access the third element within another element?
+    We can use element1 :nth-child(3)  tag. That picks the 3rt element within element1
