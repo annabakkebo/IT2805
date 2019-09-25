@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About:Anna</title>
+    <link rel="icon" href="img/webtek.png">
+    <link rel="stylesheet" href="css/style.css" >
+</head>
+
+<body>
+<header>
+    <h1>Anna</h1>
+</header>
+<section><header><h2>This is me</h2></header>
+    <img src="img/me.JPG" alt="Me"  style="border-width: 4px;">
+    <p>
+        I'm Anna. I'm at my fourth year in my study to become a teacher in mathematics and
+        informatics. With that I have experience in some languages. I'm mostly experienced in python and java. I also
+        have some experience in PHP, HTML, CSS, latex and Maxima , and a tiny tiny bit in assembly (from the course
+        TDT4160).
+    </p>
+    <p>
+        Most of my coding experience comes from the courses I've had here at NTNU. Except for HTML, which I've learned
+        from teaching it when having teaching practice. In the course IT1 in high school the pupils learn some basic
+        HTML. So from teaching that I've also learned some HTML. Maxima I've learned through making math tasks for pupils
+        in elementary school where Maxima was the language used to create the tasks.
+    </p>
+    <p>
+        My expectations for the course is that I will learn HTML and javascript. At least enough to be able to
+        teach it confidently to pupils in high school. I also expect to learn some about the internett, and what I need
+        to think about when creating a web page.
+    </p>
+</section>
+<section>
+    <header>
+        <header><h2>Questions - first assignment</h2></header>
+    </header>
+    <ol>
+        <li>
+            The server in the client server architecture wait for requests from the clients and responds. For instance
+            I as a client would request a web page and the server responds with the web page that I requested.
+        </li>
+        <li>
+            The client request and recieve service and information from the server.
+        </li>
+        <li>
+            An IP, short for internett protocol, is a unique numeric identifier that every computer on the Internett has.
+            Through this we can distinguish the different computers connected to the internet, and with different IP
+            adresses the client could be directed to the right web page. If the numbers weren't unique the client could
+            be directed to the wrong web page. The protocol guarantees proper transmission of data.
+        </li>
+        <li>
+            DNS, short for Domain Name Server, is what "translates" IP address' to homepage names. It is a server that
+            connects the IP address to the homepage names.
+        </li>
+        <li>
+            The Internett is a much broader term. The internet contains much more than that of WWW (the World Wide Web).
+            The internet is a network of networks. The World Wide Web is a system of hypertext documents that is
+            <u>accessed</u> over the Internet.
+        </li>
+        <li>
+            HTML, short for Hypertext Markup Language, is a language that is used by WWW. HTML is a standard language
+            that is used to describe how the web page is formatted. What the web page will look like.
+        </li>
+    </ol>
+</section>
+<section>
+    <header>
+        <header><h2>Questions - second assignment</h2></header>
+    </header>
+    <ol>
+        <li>
+            Why does inline style CSS override rules defined in style elements and external stylesheets?
+            <ul>
+                <li>
+                    When building the HTML file with CSS it always uses the last defined style. The inline style CSS is
+                    then the last defined and then override the rules defined in the style element or external
+                    stylesheets. This way you could use the defined style elements or external stylesheets as a general
+                    template for the web page. When changing the style of spesific elements on the page the inline style
+                    CSS would override.
+                </li>
+            </ul>
+        </li>
+        <li>
+            Give a brief example of when to use ID (#id) and when to use classes (.class) in CSS.
+            <ul>
+                <li>
+                    ID is used when identifying <u>one</u> element, while classes can be used when identifying
+                    <u>several</u> elements.
+                </li>
+            </ul>
+        </li>
+        <li>
+            What does RGBA mean and what colors can you express with it?
+            <ul>
+                <li>
+                    RGBA, red-green-blue-alpha, defines what intensity of red, green or blue the color will have. In
+                    addition it defines the opacity of the color as the alpha input. The red, green and blue inputs are
+                    integers between 0 and 255 or percentage. Alpha is given as a number between 0 and 1. Where 0 is
+                    transparent and 1 is visible. <br/>
+                    We can express all colors with it.
+                </li>
+            </ul>
+        </li>
+        <li>
+            Why do we include CSS files inside the head element and not inside the body element?
+            <ul>
+                <li>
+                    Because then the web page has the styles before starting to ''paint'' the web page. If it had been
+                    inside the body element the web page would start to load the page, and then recognize the CSS file /
+                    style element. It would then need to reload the page to implement the style.
+                </li>
+            </ul>
+        </li>
+        <li>
+            What CSS selector matches all the p elements inside the article element in the following HTML? <br/>
+            <code>
+                &lt;p&gt; This should not match &lt;/p&gt; <br/>
+                &lt;article&gt; <br/>
+                <div class="tab">
+                    &lt;h2&gt;This should not match&lt;/h2&gt; <br/>
+                    &lt;p&gt;This should match.&lt;/p&gt;<br/>
+                    &lt;p&gt;This should also match.&lt;/p&gt;<br/>
+                    &lt;p&gt;Do not forget about this one!&lt;/p&gt;<br/>
+                </div>
+                &lt;/article&gt;
+            </code>
+            <ul>
+                <li>
+                    One solution is "<code>article &gt; p{}</code>". This picks the &lt;p&gt; element that is a child of an &lt;article&gt; element.
+                    If we would have a &lt;p&gt; within a &lt;p&gt; element this would not match here.  <br>
+                    Another solution is "<code>article  p{}</code>". Here all &lt;p&gt; elements within an &lt;article&gt; element will
+                    match. If we would have a &lt;p&gt; within a &lt;p&gt; element this would also match here.
+                </li>
+            </ul>
+        </li>
+    </ol>
+</section>
+<footer>
+    Created by Anna Bakkebø
+</footer>
+</body>
+</html>
