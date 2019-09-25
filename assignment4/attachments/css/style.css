@@ -11,6 +11,9 @@
   #screen {
     position: relative;
   }
+  #mobile{
+    display: none;
+  }
 
   video {
     height: auto;
@@ -29,8 +32,10 @@
   }
 
   article {
-    width: 720px;
-    margin: 20px 50px;
+    width: 80%;
+    padding: 10% 10%;
+    margin: auto;
+
   }
 
   p {
@@ -38,3 +43,14 @@
     font-size: 16px;
     line-height: 1.5;
   }
+
+  @media only screen and (max-width: 940px){
+    video{
+      display: none;
+    }
+    #mobile{
+      width:100%;
+      display: block;
+    }
+  }
+
