@@ -1,0 +1,17 @@
+1. Why do mobile phones usually ignore auto play on videos?
+    Many operative system developers for mobile phones disable autoplay on videos. This is to protect the user from
+    using more data than wanted. Many users pay for the data they use. By ignoring autoplay they can choose to not
+    watch videos that they do not want to use their data to watch
+2. What will the CSS snippet at the end of this section do if the visitor is browsing on a devise with 320x568 resolution?
+    @media only screen and (min-device-width:768) and (max-device-width: 1024px) {
+        #logo{
+            display: none;
+        }
+    }
+    This will not do anything as the device width is smaller than min-device-width.
+3. Mention som of the advantages of having a single responsive website instead of dedicated versions like m.til.no for
+    mobile and til.no for desktop?
+    One advantage of having a single website is that it is less to maintain than several separate sites.
+    Often all or more of the content and functionality is available on a responsive website compared to mobile dedicated
+    sites.
+    Responsive sites are often easier to find with a search engine than mobile sites.
