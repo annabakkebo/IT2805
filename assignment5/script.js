@@ -1,6 +1,9 @@
 /* Part 2 */
 console.log('PART 2')
-
+var i;
+for (i = 1; i<21; i++){
+    console.log(i)
+}
 /* Part 3 */
 console.log('PART 3')
 
