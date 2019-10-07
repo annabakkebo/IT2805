@@ -29,16 +29,14 @@
 
 </head>
 <body>
-<script type="text/javascript" src="script.js"></script>
-    <!--I placed it in the head as I thought it would be nice for all the functions to upload before the rest of the
-    page -->
+
 <h1 id='title'></h1>
 
 <h2>Part 5</h2>
 <div class='buttons'>
-    <button>Display: none</button>
-    <button>Visibility: hidden</button>
-    <button>Reset</button>
+    <button onclick="changeDisplay()">Display: none</button>
+    <button onclick="changeVisibility()">Visibility: hidden</button>
+    <button onclick="reset()">Reset</button>
 </div>
 <div class='box' id='magic'> 1</div>
 <div class='box'> 2</div>
@@ -46,6 +44,8 @@
 <h2>Part 6</h2>
 <ul id='tech'>
 </ul>
-
+<script type="text/javascript" src="script.js"></script>
+<!--I placed it at the bottom of the body as it will change things in the document. It will then need to be stated
+before being able to change it -->
 </body>
 </html>
