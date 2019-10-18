@@ -1,0 +1,16 @@
+1. Why does the following expression 0.1 + 0.2 === 0.3 evaluate to false in javascript?
+    Because it is three equal signs. When there is three equal signs it checks if it is strictly equal. It doesn't
+    convert types. Here 0.1+0.2 is a different type than 0.3
+2. What does the method attribute on a form element decide?
+    Tells the web browser how to send form data to a server
+3. Explain why the form fields appear in the URL when the method on form element is changed to GET?
+    It allows the browser to cache the results of the form submission, and it also allows the user to bookmark the page
+    once the form has been submitted.
+4. Why is it considered bad practice to only validate form input with HTML5 and/or Javascript?
+    HTML5 and Javascript validation is considered as the client-side validation. Validation is often devided into two
+    categories. Client-side validation and server-side validation. For best security and user experience it is best to
+    use both types of validation. It is therefore considered bad practice to only use one of the types of validation.
+5. When is it appropriate to use textarea over input?
+    An input field is a one-line field, while textarea is a multi-line field that allows you to press enter. When the
+    client will write a longer text it is good to use textarea. But if the user should only write a small text that is
+    maximum one-line then it is good to use input.
