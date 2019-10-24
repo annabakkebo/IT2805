@@ -2,9 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Todo list</title>
+    <style>
+        form{
+            margin:auto;
+            padding-top: 20px;
+            width:100%;
+            min-height: 100px;
+            border-bottom: 2px solid #323232;
+            background-color: #cccccc;
+        }
+        input[type=text]{
+            width: 50%;
+            padding: 12px 20px;
+            margin: 20px 8px 10% 10%;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        input[type=submit] {
+            background-color: brown;
+            cursor: pointer;
+            width: 80px;
+            margin: 20px 8px 10% 10%;
+            box-sizing: border-box;
+        }
+        label{
+            margin: 0px 8px 8px 10%;
+        }
+        li{
+            margin:0;
+            list-style: none;
+        }
+        input[type=checkbox]:checked + label{
+            text-decoration: line-through;
+        }
+    </style>
+    <script src="todo.js"></script>
 </head>
 <body>
+<form id="todoListInput" onsubmit="addTask();return false;">
+    <label for="todoListInput">Todo List Input:</label><br>
+    <input type="text" id="inputText" name="todoElement" placeholder="Type information for the to do list" required>
+    <input type="submit" id="add" name="add" value="add" >
+</form>
+<h3>Todo-list</h3>
+<ul id="todoList">
 
+
+</ul>
 </body>
 </html>
